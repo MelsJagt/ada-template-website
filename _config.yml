@@ -5,5 +5,11 @@ show_downloads: True
 navigation:
   - title: Home
     url: /
-  - title: Example
-    url: example
+  - title: Between game
+    url: between_game
+  - title: In game
+    url: in_game
+  - title: Classification
+    url: classification
+  - title: Conclusion
+    url: conclusion
