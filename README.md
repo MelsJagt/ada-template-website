@@ -30,5 +30,23 @@
 <p align="center">
     <i ><b>Figure 1</b></i>
 </p>
-
-
+<br />
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        Based on this result we can partition the players into 3 groups: <br><br>
+        <ul>
+            <li><b>1.</b> Players with <b>0</b> finished games. </li>
+            <li><b>2.</b> Players with <b>partially</b> finished games. </li>
+            <li><b>3.</b> Players with <b>only</b> finished games. </li>
+        </ul> <br>
+        Hence we observe that a substantial <b>25%</b> of the total number of players do not have any finished game at all&#128533; This is a big loss<b>!</b> Imagine if this portion would also have had succesful attemps (i.e. finished games). Then there would have been much more data on finished games to do further analysis on. On the other side of the spectrum we find that <b>51%</b> of the players have finished games only. We want to investigate what caused this bifurcation of behavior. The remaining <b>24%</b> falls in between these two categories. These players experience mixed results when playing the Wikispeedia game. <br><br>
+        Let's have a look at the number of games played per group displayed in the <i><b>Figure 2</b></i> below.
+    </span>
+</div>
+<br />
+<p align="center">
+    <img src="figures/fig2.jpg" width="500"/> 
+</p>
+<p align="center">
+    <i ><b>Figure 2</b></i>
+</p>
