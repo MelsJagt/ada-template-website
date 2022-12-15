@@ -39,7 +39,7 @@
             <li><b>2.</b> Players with <b>partially</b> finished games. </li>
             <li><b>3.</b> Players with <b>only</b> finished games. </li>
         </ul> <br>
-        Hence we observe that a substantial <b>25%</b> of the total number of players do not have any finished game at all&#128533; This is a big loss<b>!</b> Imagine if this portion would also have had succesful attemps (i.e. finished games). Then there would have been much more data on finished games to do further analysis on. On the other side of the spectrum we find that <b>51%</b> of the players have finished games only. We want to investigate what caused this bifurcation of behavior. The remaining <b>24%</b> falls in between these two categories. These players experience mixed results when playing the Wikispeedia game. <br><br>
+        Hence we observe that a substantial <b>25%</b> of the total number of players do not have any finished game at all&#128533; This is a big loss&#10071; Imagine if this portion would also have had succesful attemps (i.e. finished games). Then there would have been much more data on finished games to do further analysis on. On the other side of the spectrum we find that <b>51%</b> of the players have finished games only. We want to investigate what caused this bifurcation of behavior. The remaining <b>24%</b> falls in between these two categories. These players experience mixed results when playing the Wikispeedia game. <br><br>
         Let's have a look at the number of games played per group displayed in the <i><b>Figure 2</b></i> below.
     </span>
 </div>
@@ -54,5 +54,15 @@
     <span style="color:black">
         First we see that the distribution of the number of games played for all groups (i.e. <b>1.</b>, <b>2.</b> and <b>3.</b>) follows a power-law.  Other striking obervations are that group <b>1.</b> seems to play less games than the other two groups. Perhaps the fact that these players are not able to finish a single game at all demotivates them to play further. Group <b>2.</b> and <b>3.</b> are fairly similar, besides the few outliers in group <b>3.</b> These outlier represent a very tiny portion of highly motivated players that play many games.<br><br>
         Also we can check per player what type (i.e. finished or unfinished) their last game was. By definition group <b>1.</b> and <b>3.</b> only end on an unfinished or finished game respectively. It is interesting, however, to investigate group <b>2.</b>. We observe that players ending on an unfinished path have significantly less finished games overall compared to players ending on a finished path. This could suggest that players ending with an unsuccesful game could get demotivated to continue playing another game. This abandoning behavior could result in these players missing out on potential succesful games in the future.
+    </span>
+</div>
+<br />
+
+<div style='background-color:#08135c; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+       <h2 style="color:white">Now what?</h2>
+</div>
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        So we see many players that are unable to finish any game at all as they quickly abandon the game after relatively few games. On top of that there are players with mixed succes, though at some point they experience an unfinished path being the last straw that breaks the camel's back. Both groups are lost potential  &#10060;. Ideally we want these players to stay engaged in order to generate potential finished paths in the future &#128200;. One strategy to achieve this is to detect during an individual's progress when that person is likely to quit the game. When the odds for the latter are high, the game can offer "easier" games or provide "hints" to guide the player. Hence, the first step to achieving this is to actually create a accurate detector. This is what we will address in this report. In the following section we will investigate features that are adequate indicators on the progress of the player. Accordingly we will train a classifier that predict wether the individual is likely to succesfully finish the game or not &#9989;. Altogether this investigation contributes to understanding why players quit the game. As explained this is important as the first step towards finding means to keep players engaged in the game.
     </span>
 </div>
