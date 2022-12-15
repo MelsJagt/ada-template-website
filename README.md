@@ -45,8 +45,14 @@
 </div>
 <br />
 <p align="center">
-    <img src="figures/fig2.jpg" width="500"/> 
+    <img src="figures/fig2.jpg" width="700"/> 
 </p>
 <p align="center">
     <i ><b>Figure 2</b></i>
 </p>
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        First we see that the distribution of the number of games played for all groups (i.e. <b>1.</b>, <b>2.</b> and <b>3.</b>) follows a power-law.  Other striking obervations are that group <b>1.</b> seems to play less games than the other two groups. Perhaps the fact that these players are not able to finish a single game at all demotivates them to play further. Group <b>2.</b> and <b>3.</b> are fairly similar, besides the few outliers in group <b>3.</b> These outlier represent a very tiny portion of highly motivated players that play many games.<br><br>
+        Also we can check per player what type (i.e. finished or unfinished) their last game was. By definition group <b>1.</b> and <b>3.</b> only end on an unfinished or finished game respectively. It is interesting, however, to investigate group <b>2.</b>. We observe that players ending on an unfinished path have significantly less finished games overall compared to players ending on a finished path. This could suggest that players ending with an unsuccesful game could get demotivated to continue playing another game. This abandoning behavior could result in these players missing out on potential succesful games in the future.
+    </span>
+</div>
