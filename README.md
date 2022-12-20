@@ -19,7 +19,7 @@
 </div>
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
-        In this study a condensed version of Wikipedia is used <a href="https://snap.stanford.edu/data/wikispeedia.html">[4]</a>. Summary statistics can be found in <i><b>Table 1</b></i> above. We are interested in the individual players and more particularly in their unfinished paths. As we would like to motivate players to succesfully complete multiple games, we in the first place have to understand why some players are actually not able to finish a game. <br><br>
+        In this study a condensed version of Wikipedia is used <a href="https://snap.stanford.edu/data/wikispeedia.html">[4]</a>. Summary statistics can be found in <i><b>Table 1</b></i> above. We are interested in the individual players and more particularly in their unfinished paths. We would like to motivate players to succesfully complete multiple games, and for that we in the first place have to understand why some players are actually not even able to finish a game. <br><br>
         For each unique player we can compute the proportion of finished games over the total number of games played by that person. The distribution of the latter is displayed in <i><b>Figure 1</b></i> below.
     </span>
 </div>
