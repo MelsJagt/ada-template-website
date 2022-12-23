@@ -69,7 +69,6 @@ layout: default
 <p align="center">
     <i ><b>Figure 6</b></i>
 </p>
-
 <div style='background-color:#08135c; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
        <h2 style="color:white">1.4 Longest win streak.</h2>
 </div>
