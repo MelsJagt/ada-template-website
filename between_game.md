@@ -75,7 +75,7 @@ layout: default
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
          Intuitively being on a long win streak, or having had a long win streak can be motivating for playing a game repeatedly despite having some unsuccesful games in between. Exactly for this reason we also want to consider the longest steak of finished games a player has had in the past. <br><br>
-         According to our expected, people with their last game being succesful also have a significantly larger win streak in the past (Figure 7).
+         According to our expected, people with their last game being succesful also have a significantly larger win streak in the past (<i><b>Figure 7</b></i>).
     </span>
 </div>
 <br />
@@ -90,7 +90,7 @@ layout: default
 </div>
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
-         So far we have discussed 4 distinct features as potential predictors. However, we are not done yet. We would like to assess wether the different features are (independtly) meaningful. That is, we preferably want them to not correlate to much with each other. To assess this, we computed a covariance matix in the Figure 8below.
+         So far we have discussed 4 distinct features as potential predictors. However, we are not done yet. We would like to assess wether the different features are (independently) meaningful. That is, we preferably want them to not correlate to much with each other. To assess this, we computed a covariance matix in <i><b>Figure 8</b></i> below.
     </span>
 </div>
 <br />
@@ -103,7 +103,7 @@ layout: default
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
          Hence, we observe that the cross-correlations are generaly low, indicating that they all independently contribute meaningful information to our model. For that reason we take all features into account and add them to our model. <br><br>
-         We have now finished the first part of building our model as depicted in Figure 9 and the next step is to look at the <b>In game</b> features.
+         We have now finished the first part of building our model as depicted in <i><b>Figure 9</b></i> and the next step is to look at the <b>In game</b> features.
     </span>
 </div>
 <br />
