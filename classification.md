@@ -56,7 +56,7 @@ layout: default
 </div>
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
-       A summary of the logistic regression is depicted in <i><b>Figure 17</i></b> below.
+       A summary of the logistic regression is depicted in <i><b>Figure 17</b></i> below.
     </span>
 </div>
 <br />
