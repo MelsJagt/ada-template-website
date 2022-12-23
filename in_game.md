@@ -22,6 +22,23 @@ layout: default
         <li><b><code class='python'>D</code> is big</b>: we came to this node (wikipedia page) but then returned to the previous one - the player thought that he/she was on the wrong way (node B in our example)</li>
         <li><b><code class='python'>D</code> is negative</b>: this means that we get back and forth from this node, not knowing how to escape - the player think he is at a key node but does not know how to go further (node A in our example)</li>
         </ul>
-        \begin{displaymath} y=
+    </span>
+</div>
+<br />
+<p align="center">
+    <img src="figures/fig10.jpg" width="600"/> 
+</p>
+<p align="center">
+    <i ><b>Figure 10</b></i>
+</p>
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        We observe in <i><b>Figure 10</b></i> above that the <code class='python'>D</code> for nodes in finished paths are concentrated around 0, which means the go back button was not used much during these games, whereas for unfinished paths, the histogram is skewed wider. <br><br>
+        Looking more specifically at unfinished paths, we see that we have both cases (<code class='python'>D</code> is large positively and negatively). In addition what is interesting is the following: <br><br>
+        <ul>
+            <li>Nodes with <code class='python'>D</code> large positively (Node B) are used more in finished paths like <code class='python'>Politics, History, Chemistry</code> which means that maybe players that did not finish did not adopt the good strategy and should have continued in the paths using these topics.</li>
+            <li>Nodes with <code class='python'>D</code> large negatively (Node A), the node players cannot escape, are the ones related to topics like <code class='python'>Literature, Theatre, Architecture</code> which are the node used less in finished than in unfinished. So we might conclude that the players should escape these node as soon as possible and used better concepts like  <code class='python'>Politics</code>.</li>
+        </ul>
+        However, with this analysis we should be carefull with possible <i>cofounder</i> which could be that the topics of <code class='python'>Literature, Theatre, Architecture</code> are intrinsically harder and this is why people get stuck.
     </span>
 </div>
