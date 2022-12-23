@@ -90,7 +90,7 @@ layout: default
         <li><b>3</b> : We convolve with a Halved Gaussian Kernel. We assume that the player has a general feeling about their distance to the target. The players gets motivated when the distance to the target decreases and reciprocally demotivated when the distance increases. Also we assume that the most recent moves of the player are most prominent in the memory. Hence a Halved Gaussian Kernel is a good model to mimic this behavior</li>
         <li><b>4</b> : We repeat this procedure for all other games played.</li>
         </ul>
-        Following this procedure for all games, we can compare how the progress differs between people ending on a finished or unfinished game. For a fair comparison we took out the last game of finished paths since this is per definition the target. Acccordingly we can have a fair comparison between the two classes, desplayed in <i><b>Figure 13</b></i> below.
+        Following this procedure for all games, we can compare how the progress differs between a finished or unfinished game. For a fair comparison we took out the last game of finished paths since this is per definition the target. Acccordingly we can have a fair comparison between the two classes, desplayed in <i><b>Figure 13</b></i> below.
     </span>
 </div>
 <br />
@@ -99,4 +99,17 @@ layout: default
 </p>
 <p align="center">
     <i ><b>Figure 13</b></i>
+</p>
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        Interestingly, we observe that for both finished and unfinished games the best progress score is obtained around path length 4-5. At the same time we observe a slight difference between finished and unfinished games. However this difference is not too convincing as the standard deviations overlap. For that reason we leave it out of the logistic regression. <br><br>
+        Adding together the features related to the concept, we now completed our feature matrix, and we are ready to move on to the classifation stage. For more visit the next page!
+    </span>
+</div>
+<br />
+<p align="center">
+    <img src="figures/fig14.jpg" width="500"/> 
+</p>
+<p align="center">
+    <i ><b>Figure 14</b></i>
 </p>
