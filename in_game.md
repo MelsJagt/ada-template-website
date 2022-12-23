@@ -16,6 +16,7 @@ layout: default
 </div>
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
-        We want to analysis where the player can get stuck during their games. For each wikipedia article in the players graph, we have its in and ou degree and these two values are not always the same. In fact when we constructed  the graph we remove edges that went back to the previous pages visited. For example, suppose a player starts with page A, go to B, but then see that it was not a good idea to go to B and use the back button back to A and then go to C. At the end A has in/out degree of 0/2 whereas B has in/out degree 1/0. Therefore, analysising the difference between the degrees can give us insight on where player get stuck.
+        We want to analyze where the player can get stuck during their games as this could potentially lead to an unfinished result. For each Wikipedia article in the players graph (i.e. that path taken during a game), we have its in and out degree and these two values are not always the same. In fact when we constructed  the graph we remove edges that went back to the previous pages visited. For example, suppose a player starts with page A and then goes to B. He/she might then see that it was not a good idea to go to B and uses the back button to return to A, after which the player moves go to C. At the end A has in/out degree of 0/2 whereas B has in/out degree 1/0. Therefore, analysising the difference between the degrees can give us insight on where player get stuck. <br><br>
+        In fact when we compute $\delta$ = $in_{deg}$ - $out_{deg}$ 
     </span>
 </div>
