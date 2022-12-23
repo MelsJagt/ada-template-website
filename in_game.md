@@ -65,4 +65,19 @@ layout: default
     <span style="color:black">
         In conclusion, some starting and target concepts has a big impact on the result of a game. We will use these two score for our logistic regression.
     </span>
+</div><br /><br />
+<div style='background-color:#08135c; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+       <h2 style="color:white">2.3 In game progress</h2>
 </div>
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        So far we looked at the topic distributions related to the starting, target page and the node degrees. Now we want to dig deeper into the progress of an individual player as it traverses through the path taken by him/her. Therefore we propose a progress score that keeps track of the the player's goal-directed path navigation, illustrated in <i><b>Figure 12</b></i>:
+    </span>
+</div>
+<br />
+<p align="center">
+    <img src="figures/fig12.jpg" width="500"/> 
+</p>
+<p align="center">
+    <i ><b>Figure 11</b></i>
+</p>
