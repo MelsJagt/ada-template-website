@@ -79,5 +79,24 @@ layout: default
     <img src="figures/fig12.jpg" width="500"/> 
 </p>
 <p align="center">
-    <i ><b>Figure 11</b></i>
+    <i ><b>Figure 12</b></i>
+</p>
+<div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
+    <span style="color:black">
+        In the schematic above the following procedure applies to evaluate the progress:<br><br>
+        <ul>
+        <li><b>1</b> : For every node, the shortest (theoretical) distance to the target is computed using the graph constructed of the connectivity of Wikipedia articles</li>
+        <li><b>2</b> : The differential is calculated as <code class='python'>diff[i] = node[i+1]-node[i]</code></li>
+        <li><b>3</b> : We convolve with a Halved Gaussian Kernel. We assume that the player has a general feeling about their distance to the target. The players gets motivated when the distance to the target decreases and reciprocally demotivated when the distance increases. Also we assume that the most recent moves of the player are most prominent in the memory. Hence a Halved Gaussian Kernel is a good model to mimic this behavior</li>
+        <li><b>4</b> : We repeat this procedure for all other games played.</li>
+        </ul>
+        Following this procedure for all games, we can compare how the progress differs between people ending on a finished or unfinished game. For a fair comparison we took out the last game of finished paths since this is per definition the target. Acccordingly we can have a fair comparison between the two classes, desplayed in <i><b>Figure 13</b></i> below.
+    </span>
+</div>
+<br />
+<p align="center">
+    <img src="figures/fig13.jpg" width="500"/> 
+</p>
+<p align="center">
+    <i ><b>Figure 13</b></i>
 </p>
