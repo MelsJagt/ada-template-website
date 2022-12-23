@@ -3,13 +3,13 @@ title: The Tale of the Unfinished Paths
 description: An analysis on the manifestation of unfinished paths driving the players to quit the Wikispeedia game.
 show_downloads: True
 navigation:
-  - title: 1. Home
+  - title: Home
     url: /
-  - title: 2. Between game
+  - title: 1. Between game
     url: between_game
-  - title: 3. In game
+  - title: 2. In game
     url: in_game
-  - title: 4. Classification
+  - title: 3. Classification
     url: classification
-  - title: 5. Conclusion
+  - title: 4. Conclusion
     url: conclusion
