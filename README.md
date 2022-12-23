@@ -63,6 +63,17 @@
 </div>
 <div style='background-color:#faefe1; border-left: solid #darkblue 4px; border-radius: 4px; padding:0.7em;'>
     <span style="color:black">
-        So we see many players that are unable to finish any game at all as they quickly abandon the game after relatively few games. On top of that there are players with mixed succes, though at some point they experience an unfinished path being the last straw that breaks the camel's back. Both groups are lost potential  &#10060;. Ideally we want these players to stay engaged in order to generate potential finished paths in the future &#128200;. One strategy to achieve this is to detect during an individual's progress when that person is likely to quit the game. When the odds for the latter are high, the game can offer "easier" games or provide "hints" to guide the player. <br><br>Hence, the first step to achieving this is to actually create an accurate detector. This is what we will address in this report. In the following section we will investigate features that are adequate indicators on the progress of the player. Accordingly we will train a classifier that predict wether the individual is likely to succesfully finish the game or not &#9989;. Altogether this investigation contributes to understanding why players quit the game and thereby provided the first stepping stone towards finding adequate means to keep players engaged in the game.
+        So we see many players that are unable to finish any game at all as they quickly abandon the game after relatively few games. On top of that there are players with mixed succes, though at some point they experience an unfinished path being the last straw that breaks the camel's back. Both groups are lost potential  &#10060;. Ideally we want these players to stay engaged in order to generate potential finished paths in the future &#128200;. One strategy to achieve this is to detect during an individual's progress when that person is likely to quit the game. When the odds for the latter are high, the game can offer "easier" games or provide "hints" to guide the player. <br><br>Hence, the first step to achieving this is to actually create an accurate detector. This is what we will address in this report. The aim is to build a simple (logistic regression) model using features that we can extract from two categories:
+        <ul>
+        <li><b>Between game</b>: Features derived from the history of games played by a player.</li>
+        <li><b>Im game</b>: Features derived from the path traversed of a single game of a player.</li>
+        </ul> A schematic depiction of the overall model is depicted below in <i><b>Figure 3</b></i>. Accordingly we will train a classifier that predict wether the individual is likely to succesfully finish the game or not &#9989;. Under the assumption that players ending on a unfinished game get demotivated and are more likely to abandon the game, this investigation contributes to understanding why players quit the game. Concurrently, this provides the first stepping stone towards finding adequate means to keep players engaged in the game.
     </span>
 </div>
+<br />
+<p align="center">
+    <img src="figures/fig3.jpg" width="700"/> 
+</p>
+<p align="center">
+    <i ><b>Figure 3</b></i>
+</p>
