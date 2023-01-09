@@ -86,7 +86,7 @@ layout: default
         In the schematic above the following procedure applies to evaluate the progress:<br><br>
         <ul>
         <li><b>1</b> : For every node, the shortest (theoretical) distance to the target is computed using the graph constructed of the connectivity of Wikipedia articles</li>
-        <li><b>2</b> : The differential is calculated as <code class='python'>diff[i] = node[i+1]-node[i]</code></li>
+        <li><b>2</b> : The differential is calculated as <code class='python'>diff[i] = node[i]-node[i+1]</code></li>
         <li><b>3</b> : We convolve with a Halved Gaussian Kernel. We assume that the player has a general feeling about their distance to the target. The players gets motivated when the distance to the target decreases and reciprocally demotivated when the distance increases. Also we assume that the most recent moves of the player are most prominent in the memory. Hence a Halved Gaussian Kernel is a good model to mimic this behavior</li>
         <li><b>4</b> : We repeat this procedure for all other games played.</li>
         </ul>
